@@ -8,7 +8,7 @@ Create main.tf.json file as use module for AWS Route53 Records
   "module": {
     "dns_name": {
       "source": "recroviral/route53-record/aws"
-      "version": "1.0.1"
+      "version": "1.0.0"
       "zone_id": "ZoneID",
       "records_alias": [
         {
